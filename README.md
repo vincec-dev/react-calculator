@@ -1,4 +1,4 @@
 # react-calculator
-https://react-js-calculator-vince-c.firebaseapp.com/
+[adjustable](https://react-js-calculator-vince-c.firebaseapp.com/ "Giiidd"){:target="_blank"}
 
 React Calculator
