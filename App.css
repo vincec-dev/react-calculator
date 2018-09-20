@@ -1,0 +1,101 @@
+button {
+  font-size: 14px;
+}
+button:hover {
+  border: 2px solid white;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #556270, #FF6B6B);
+}
+
+#full-calc {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  width: 340px; // 85px per button * 4 across
+  height: 510px;
+  border-radius: 5px;
+}
+
+.calc-row {
+  width: 340px;
+  height: 85px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.calc-row-large {
+  width: 340px;
+  height: 170px;
+}
+
+#row123eq {
+  width: 340px;
+  height: 85px;
+  flex-direction: row;
+}
+
+#row-zero-decimal {
+  width: 255px;
+  height: 85px;
+  flex-direction: row;
+}
+
+#display {
+  width: 340px;
+  height: 85px;
+  background-color: black;
+  font-size: 18px;
+}
+
+#steps {
+  color: white;
+  font-size: 2em;
+  padding-left: 35px;
+  padding-top: 22px;
+}
+
+#clear {
+  width: 170px;
+  height: 85px;
+  background-color: #AA3A3C;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  /* font-weight: bold; */
+}
+
+.operator {
+  background-color: #666666;
+  color: white;
+  width: 85px;
+  height: 85px;
+}
+
+.number, .decimal {
+  background-color: #4D4D4D;
+  color: white;
+  width: 85px;
+  height: 85px;
+}
+
+.equals {
+  width: 85px;
+  height: 170px;
+  float: right;
+  background-color: #064565;
+  color: white;
+}
+
+.zero {
+  background-color: #4D4D4D;
+  color: white;
+  width: 170px;
+  height: 85px;
+}
