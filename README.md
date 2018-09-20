@@ -1,4 +1,4 @@
 # react-calculator
-[a link](https://react-js-calculator-vince-c.firebaseapp.com/){:target="_blank"}
+<a href="https://react-js-calculator-vince-c.firebaseapp.com/" target="_blank">https://react-js-calculator-vince-c.firebaseapp.com/</a>
 
 React Calculator
